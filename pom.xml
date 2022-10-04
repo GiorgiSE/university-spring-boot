@@ -14,7 +14,7 @@
     <name>spring-boot-university</name>
     <description>spring-boot-university</description>
     <properties>
-        <java.version>19</java.version>
+        <java.version>15</java.version>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
@@ -73,4 +73,3 @@
     </build>
 
 </project>
-
