@@ -18,9 +18,8 @@ public class BachelorsController {
     }
 
     @GetMapping("")
-    public String getAllBachelorsStudents(Model model){
-        model.addAttribute("students" , this.service.getAllBachelorFromUniversityDB());
-        return "students";
+    public List<? extends Bachelor> getAllBachelorsStudents(){
+        return this.service.getAllBachelorFromUniversityDB();
     }
 
     @GetMapping("/{id}")
